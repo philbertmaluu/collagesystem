@@ -496,7 +496,7 @@
                                             </a>
                                         </li>
 
-                                        <li class="nav-item">
+                                        {% comment %} <li class="nav-item">
                                             {% url 'student_apply_leave' as student_apply_leave %}
                                             <a href="{{student_apply_leave}}"
                                                 class="nav-link {% if student_apply_leave == request.path %} active {% endif %}">
@@ -506,9 +506,9 @@
 
                                                 </p>
                                             </a>
-                                        </li>
+                                        </li> {% endcomment %}
 
-                                        <li class="nav-item">
+                                        {% comment %} <li class="nav-item">
                                             {% url 'student_feedback' as student_feedback %}
                                             <a href="{{student_feedback}}"
                                                 class="nav-link {% if student_feedback == request.path %} active {% endif %}">
@@ -518,7 +518,7 @@
 
                                                 </p>
                                             </a>
-                                        </li>
+                                        </li> {% endcomment %}
 
                                         {% endif %}
 

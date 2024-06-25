@@ -1,4 +1,4 @@
-#!/Users/apple/Desktop/CollegeManagement/env/bin/python3.11
+#!/Users/apple/Desktop/djangoprojects/CollegeManagement/env/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
